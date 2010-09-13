@@ -1,0 +1,18 @@
+## Interface: 30300
+## Title: Broker_WhoLib
+## Notes: For Developers (of Addons which uses LibWho-2.0): show queues and queries in realtime
+## Version: @project-version@ 
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: true
+## OptionalDeps: LibStub, CallbackHandler-1.0, LibWho-2.0
+## Author: ALeX Kazik, Sylvanaar, mitch0
+## X-Category: Development Tools
+
+#@no-lib-strip@
+libs\LibStub-1.0\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibWho-2.0\LibWho-2.0.lua
+#@end-no-lib-strip@
+
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Broker_WhoLib.lua
