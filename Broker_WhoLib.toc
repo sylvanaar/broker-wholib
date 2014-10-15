@@ -1,4 +1,4 @@
-## Interface: 50001 
+## Interface: 60000 
 
 ## Title: Broker: WhoLib
 ## Notes: For Developers (of Addons which uses LibWho-2.0): show queues and queries in realtime
