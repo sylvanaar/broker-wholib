@@ -8,5 +8,5 @@ externals:
         url: svn://svn.wowace.com/wow/callbackhandler/mainline/trunk/CallbackHandler-1.0
         tag: latest
     libs/LibWho-2.0:
-        url: svn://svn.wowace.com/wow/wholib/mainline/trunk/LibWho-2.0
-#        tag: latest
+        url: https://github.com/sylvanaar/who-lib.git
+        tag: latest
