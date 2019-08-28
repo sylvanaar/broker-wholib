@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/sylvanaar/broker-wholib.svg?branch=master)
+
 # broker-wholib
 Data Broker for WhoLib Inspection
 
