@@ -19,7 +19,7 @@
 #@no-lib-strip@
 libs\LibStub-1.0\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
-libs\LibWho-2.0\LibWho-2.0.lua
+libs\LibWho-2.0\LibWho-2.0\LibWho-2.0.lua
 #@end-no-lib-strip@
 
 libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
