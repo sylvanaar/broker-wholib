@@ -8,3 +8,5 @@ Debug tool for LibWho-2.0.
 Left-Click toggles WhoLib debug mode.
 
 Right-Click resets WhoLib.
+
+Mouse-Click in the world or bind a key to run the who queue
