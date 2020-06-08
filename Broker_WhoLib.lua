@@ -15,6 +15,14 @@ local QueueNames = {
         ' SCANNING',
 }
 
+
+BINDING_NAME_WHOLIB_TRIGGER_NEXT_WHO = 'Process the next entriy in the /who queue'
+BINDING_HEADER_WHOLIB = 'WhoLib'
+
+WorldFrame:HookScript("OnMouseDown", function(self,button)
+    WhoLib:AskWhoNext()
+end)
+
 local function sortCache(a, b)
     a, b = WhoLib.Cache[a], WhoLib.Cache[b]
     if a == nil or b == nil then
